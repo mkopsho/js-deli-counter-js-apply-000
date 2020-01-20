@@ -5,3 +5,9 @@ function takeANumber(line, newPerson) {
   }
 }
 
+function nowServing(katzDeliLine) {
+  for (var i = 0; i < katzDeliLine.length; i++) {
+    return katzDeliLine.shift();
+  }
+  return "There is nobody waiting to be served!"
+}
