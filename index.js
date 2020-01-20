@@ -4,3 +4,4 @@ function takeANumber(line, newPerson) {
     return `Welcome, ${newPerson}. You are number ${i + 1} in line.`;
   }
 }
+
