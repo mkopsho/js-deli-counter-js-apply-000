@@ -12,3 +12,8 @@ function nowServing(katzDeliLine) {
   return "There is nobody waiting to be served!";
 }
 
+function currentLine(katzDeliLine) {
+  for (var i = 0; i <katzDeliLine.length; i++) {
+    return `The line is currently: ${katzDeliLine.length}. ${katzDeliLine[i + 1]}, `;
+  }
+}
